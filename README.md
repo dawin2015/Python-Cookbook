@@ -28,5 +28,5 @@ from collections import OrderedDict</br>
 如: a.keys() & b.keys()</br>
     a.keys() - b.keys()</br>
     a.items() & b.items()</br>
-1.10 从序列中移除重复项且保持元素间顺序不变
-def dedupe()
+1.10 从序列中移除重复项且保持元素间顺序不变</br>
+def dedupe()</br>
