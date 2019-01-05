@@ -51,4 +51,5 @@ from itertools import compress
 from collections import namedtuple</br>
 1.19 同时对数据做转换和换算</br>
 在函数参数中使用生成器表达式。</br>
-
+1.20 将多个映射合并为单个映射</br>
+from collections import ChainMap</br>
