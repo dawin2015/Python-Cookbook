@@ -6,7 +6,7 @@
 @contact: 694596886@qq.com
 @site: https://blog.csdn.net/dawin_2008
 @software: PyCharm
-@file: 1.6.py
+@file: 1_6.py
 @time: 2019/1/3 23:58
 """
 
