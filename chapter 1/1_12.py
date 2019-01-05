@@ -29,3 +29,9 @@ word_counts.update(morewords)
 
 top_three = word_counts.most_common(3)
 print(top_three)  # Output: [('eyes', 9), ('the', 5), ('look', 4)]
+
+a = Counter(words)
+b = Counter(morewords)
+print(a)
+print(b)
+print(a + b)
