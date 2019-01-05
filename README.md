@@ -30,3 +30,9 @@ from collections import OrderedDict</br>
     a.items() & b.items()</br>
 1.10 从序列中移除重复项且保持元素间顺序不变</br>
 def dedupe()</br>
+1.11 对切片命名</br>
+内置的slice()函数会创建一个切片对象，可以用在任何允许进行切片操作的地方；如果有一个slice对象的实例s，可以分别通过s.start, s.stop, s.step属性得到关于该对象的信息；可以通过使用indices(size)方法将切片映射到特定大小的序列上，返回一个(start, stop, step)元祖，所有的值都已经恰当地限制在边界以内，避免出现IndexError异常。</br>
+1.12 找出序列中出现次数最多的元素</br>
+from collections import Counter</br>
+
+
