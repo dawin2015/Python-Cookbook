@@ -34,5 +34,21 @@ def dedupe()</br>
 内置的slice()函数会创建一个切片对象，可以用在任何允许进行切片操作的地方；如果有一个slice对象的实例s，可以分别通过s.start, s.stop, s.step属性得到关于该对象的信息；可以通过使用indices(size)方法将切片映射到特定大小的序列上，返回一个(start, stop, step)元祖，所有的值都已经恰当地限制在边界以内，避免出现IndexError异常。</br>
 1.12 找出序列中出现次数最多的元素</br>
 from collections import Counter</br>
-
+1.13 通过公共键对字典列表排序</br>
+from operator import itemgetter</br>
+1.14 对不原生支持比较操作的对象排序</br>
+from operator import attrgetter</br>
+1.15 根据字段将记录分组</br>
+from itertools import groupby</br>
+from collections import defaultdict</br>
+1.16 筛选序列中的元素</br>
+filter</br>
+如果想把对一个序列的筛选结果施加到另一个相关的序列上时，使用itertools.compress()，输出时会给出所有在相应的布尔选择器中为True的可迭代对象元素。</br>
+from itertools import compress
+1.17 从字典中提取子集</br>
+利用字典推导式：p = {key:value for key, value in prices.items() if value > 200}</br>
+1.18 将名称映射到序列的元素中</br>
+from collections import namedtuple</br>
+1.19 同时对数据做转换和换算</br>
+在函数参数中使用生成器表达式。</br>
 
