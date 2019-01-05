@@ -8,7 +8,7 @@
 1.3 保存最后N个元素</br>
 from collections import deque</br>
 1.4 找出最大或最小的N个元素</br>
-import heapd<\br>
+import heapd</br>
 返回nums中前三个最大值heap.nlargest(3, nums)</br>
 返回nums中前三个最小值heap.nsmallest(3, nums)</br>
 生成小端堆heap.heapify(nums)</br>
