@@ -53,3 +53,12 @@ from collections import namedtuple</br>
 在函数参数中使用生成器表达式。</br>
 1.20 将多个映射合并为单个映射</br>
 from collections import ChainMap</br>
+## 第二章
+2.1 针对任意多的分隔符拆分字符串</br>
+import re</br>
+2.2 在字符串的开头或结尾处做文本匹配</br>
+用来检查字符串的开头或结尾，使用str.startswith()和str.endswith()方法即可。</br>
+2.3 利用Shell通配符做字符串匹配</br>
+fnmatch模块提供了两个函数——fnmatch()和fnmatchcase()，可用来执行这样的匹配。fnmatch所完成的匹配操作有点介乎于简单的字符串方法和全功能的正则表达式之间，在处理数据时提供一种简单的机制以允许使用通配符。</br>
+from fnmatch import fnmatch, fnmatchcase</br>
+
