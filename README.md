@@ -134,5 +134,7 @@ for line in dropwhile(lambda line: line.startwith('#'), f):</br>
 第二种办法是，如果知道要跳过多少个函数，可以使用itertools.islice()函数：</br>
 for x in islice(item, 3, None):</br>
 最后一个参数None表示想要前3个元素之外的所有元素，即表示切片\[3:\]</br>
-
+4.9 迭代所有可能的组合或排列</br>
+排列使用itertools.permutations()</br>
+组合使用itertools.combinations()</br>
 
