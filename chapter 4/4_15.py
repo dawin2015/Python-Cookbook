@@ -12,7 +12,6 @@
 
 import heapq
 
-
 with open('sorted_file1', 'rt') as file1, open('sorted_file2', 'rt') as file2, open('merged_list', 'wt') as outf:
 
     for line in heapq.merge(file1, file2):
